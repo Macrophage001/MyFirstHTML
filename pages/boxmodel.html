@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Box Model</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .bg-red {
+            background-color: red;
+        }
+
+        #my-unique-paragraph {
+            background-color: salmon;
+            border: 4px solid aliceblue;
+        }
+    </style>
+
+    <p id="my-unique-paragraph"> This is a unique Paragraph. There are many like it, but this one is mine!</p>
+    <p class="bg-red">This is Paragraph 0</p>
+    <div class="bg-red">This is Div 1</div>
+    <p class="bg-red">This is Paragraph 2</p>
+
+    <p>This is Paragraph 3</p>
+    <p>This is Paragraph 4</p>
+    <p>This is Paragraph 5</p>
+
+
+    <div style="background-color: orange;padding:32px">
+        <p>
+            Hello, World
+        </p>
+    </div>
+
+    <!-- Margin ->  Border ->  Padding ->  Content (Width, Height) -->
+</body>
+
+
+</html>
